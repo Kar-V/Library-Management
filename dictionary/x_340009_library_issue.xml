@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="issue" max_length="40" name="x_340009_library_issue" type="collection">
+        <element display="true" label="bookId" max_length="32" name="bookid" reference="x_340009_library_book" type="reference"/>
+        <element label="deadLine" max_length="40" name="deadline" read_only="true" type="glide_date"/>
+        <element label="issueDate" max_length="40" name="issuedate" read_only="true" type="glide_date_time"/>
+        <element choice="1" label="status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="issue" sequence="0" value="issue"/>
+                <element inactive_on_update="false" label="return" sequence="1" value="return"/>
+            </choice>
+        </element>
+        <element label="userId" max_length="10" name="userid" type="string"/>
+        <index name="index">
+            <element name="userid"/>
+        </index>
+        <index name="index2">
+            <element name="bookid"/>
+        </index>
+    </element>
+</database>

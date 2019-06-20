@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="bookid" label="bookId" language="en" table="x_340009_library_issue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bookid</element>
+            <help/>
+            <hint/>
+            <label>bookId</label>
+            <language>en</language>
+            <name>x_340009_library_issue</name>
+            <plural>bookIds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-19 05:41:26</sys_created_on>
+            <sys_id>f6585f76db4233007fab294648961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>bookId</sys_name>
+            <sys_package display_value="Library" source="x_340009_library">97645216db8633007fab2946489619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Library">97645216db8633007fab2946489619be</sys_scope>
+            <sys_update_name>sys_documentation_x_340009_library_issue_bookid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-19 05:41:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

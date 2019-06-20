@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="book" max_length="40" name="x_340009_library_book" type="collection">
+        <element label="author" max_length="40" name="author" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="BookId" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="relatedTo" max_length="40" name="relatedto" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE" sequence="0" value="cse"/>
+                <element inactive_on_update="false" label="IT" sequence="1" value="it"/>
+                <element inactive_on_update="false" label="EEE" sequence="2" value="eee"/>
+                <element inactive_on_update="false" label="ECE" sequence="3" value="ece"/>
+                <element inactive_on_update="false" label="other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element default="In Library" label="status" max_length="40" name="status" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Text Book" sequence="0" value="text book"/>
+                <element inactive_on_update="false" label="Journal" sequence="1" value="journal"/>
+                <element inactive_on_update="false" label="Novel" sequence="2" value="novel"/>
+                <element inactive_on_update="false" label="other" sequence="3" value="other"/>
+            </choice>
+        </element>
+    </element>
+</database>

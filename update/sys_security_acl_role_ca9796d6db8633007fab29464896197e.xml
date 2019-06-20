@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 11:41:32</sys_created_on>
+        <sys_id>ca9796d6db8633007fab29464896197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_340009_library_issue.x_340009_library.issue_user</sys_name>
+        <sys_package display_value="Library" source="x_340009_library">97645216db8633007fab2946489619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Library">97645216db8633007fab2946489619be</sys_scope>
+        <sys_security_acl display_value="x_340009_library_issue">029796d6db8633007fab29464896197c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ca9796d6db8633007fab29464896197e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-17 11:41:32</sys_updated_on>
+        <sys_user_role display_value="x_340009_library.issue_user" name="x_340009_library.issue_user">79971256db8633007fab29464896199c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="inProcess" max_length="40" name="x_340009_library_inprocess" type="collection">
+        <element label="bookId" max_length="40" name="bookid" type="string"/>
+        <element label="closedAt" max_length="40" name="closedat" type="glide_time"/>
+        <element label="userId" max_length="40" name="userid" type="string"/>
+    </element>
+</database>
